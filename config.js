@@ -26,7 +26,7 @@
   "storage": {
   "path": "./data",
   "type": "file"
-}
+  },
 
   "documents": {
     "about": "./about.md"
