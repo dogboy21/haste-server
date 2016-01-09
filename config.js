@@ -1,35 +1,33 @@
 {
 
-  "host": "0.0.0.0",
-  "port": 7777,
+	"host": "0.0.0.0",
+	"port": 7777,
 
-  "keyLength": 10,
+	"keyLength": 10,
 
-  "maxLength": 400000,
+	"maxLength": 400000,
 
-  "staticMaxAge": 86400,
+	"staticMaxAge": 86400,
 
-  "recompressStaticAssets": true,
+	"recompressStaticAssets": true,
 
-  "logging": [
-    {
-      "level": "verbose",
-      "type": "Console",
-      "colorize": true
-    }
-  ],
+	"logging": [{
+		"level": "verbose",
+		"type": "Console",
+		"colorize": true
+	}],
 
-  "keyGenerator": {
-    "type": "phonetic"
-  },
+	"keyGenerator": {
+		"type": "phonetic"
+	},
 
-  "storage": {
-  "path": "./data",
-  "type": "file"
-  },
+	"storage": {
+		"path": "./data",
+		"type": "file"
+	},
 
-  "documents": {
-    "about": "./about.md"
-  }
+	"documents": {
+		"about": "./about.md"
+	}
 
 }
